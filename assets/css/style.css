@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:100,200,300,400,500,600,700|Oswald:100,200,300,400,500,600,700');
+
+
+/*-----------------------------------------------------Job title and Education*/
+.job-title {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+
+/*-----------------------------------------------------Navbar*/
+
+.navbar {
+    min-height: 150px;
+}
+
+.navbar-text {
+    font-family: "Lora", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fafafa;
+    padding:5px;
+}
+
+
+
+.navbar-nav > li {
+    margin-right: 40px;
+    margin-left: 40px;
+       
+}
+
+.menuitem a {
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    color: #e84610;
+    text-decoration: none;
+     text-align: center;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.menuitem a i {
+    padding-top: 30 px;
+    display: block;
+    
+}
+
+/*-----------------------------------------------------Colors*/
+
+.menuitem {  
+    background-color: #6c757d;
+    
+ }
+
+ .navbar-light .navbar-text {
+    color: #e84610;
+}
+
+
+.navbar-toggler {
+    background-color: #fafafa;
+}
+
+.job-title {
+    font-family: "Oswald", sans-serif;
+    color: #e84610;
+    
+
+    
+}
+
+.heading-title {
+    font-family: "Oswald", sans-serif;
+    color: #e84610;
+     padding-left: 10px;
+     margin-top: 20px;
+    
+}
+
+.text-title {
+    font-family: "Oswald", sans-serif;
+    color: #6c757d;
+    padding-left: 10px;
+    
+}
+
+.education-list {
+    font-family: "Oswald", sans-serif;
+    color: #6c757d;
+    padding: 10px;
+}
+
+
+/*-----------------------------------------------------Picture*/
+
+.picture {
+  padding: 0;
+  background-position: center;
+  background-size: cover;  
+  clear: both;
+  display: no-repeat;
+        
+}
+
+
+
+/*-----------------------------------------------------Footer*/
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#footer-row {
+    
+    padding: 5px;
+}
+
+.footer-items {
+    font-family: "Lato", sans-serif;
+    color: #e84610;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #6c757d;
+    color: #fafafa;
+    min-height: 90px;
+    margin: 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.cv-pdf i {
+    color: #fafafa;
+
+    font-size: 20px;
+  
+}
+
+.social-media-links li a i {
+    color: #fafafa;
+    text-align: center;
+    font-size: 20px;
+}
+
