@@ -65,9 +65,10 @@
     background-color: #fafafa;
 }
 
-.job-title {
+.title {
     font-family: "Oswald", sans-serif;
     color: #e84610;
+    padding-top: 10px;
     
 
     
@@ -94,6 +95,52 @@
     padding: 10px;
 }
 
+.work-heading {
+     font-family: "Oswald", sans-serif;
+    color: #e84610;
+    padding-top: 10px;
+
+}
+
+.job-description li {
+    font-family: "Oswald", sans-serif;
+    color: #6c757d;
+    padding-left: 10px;
+}
+
+.job-title{
+     font-family: "Oswald", sans-serif;
+       padding-left: 10px;
+}
+
+.skill-title {
+    font-family: "Oswald", sans-serif;
+    color: #e84610;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.vl-description {
+    font-family: "Oswald", sans-serif;
+    
+    color: #6c757d;
+}
+
+.personal-heading-title {
+    font-family: "Oswald", sans-serif;
+    color: #e84610;
+    padding-left: 8px;
+}
+
+.info-list {
+    font-family: "Oswald", sans-serif;
+    color: #6c757d;
+    
+}
+
+.info-table .info-list {
+    padding-left: 8px;
+}
 
 /*-----------------------------------------------------Picture*/
 
@@ -103,6 +150,7 @@
   background-size: cover;  
   clear: both;
   display: no-repeat;
+  background-color: #fafafa;
         
 }
 
@@ -129,7 +177,7 @@
 
 
 footer {
-    background-color: #111414;  
+    background-color: #343a40;  
     color: #fafafa;
     min-height: 90px;
     margin: 0;
@@ -152,3 +200,50 @@ footer {
     font-size: 20px;
 }
 
+
+.bg-color-history {
+    background-color: #e84610;
+}
+
+/*-----------------------------------------------------Portfolio styling*/
+
+
+.portfolio{
+    padding-top: 60px;
+    padding-left: 30px;
+    font-family: "Oswald", sans-serif;
+    color: #e84610;
+    
+}
+
+.portfolio-list-item a {
+      text-decoration: none;
+      color: #6c757d;
+      font-family: "Oswald", sans-serif;    
+      padding-left: 30px;
+    
+}
+
+.skill-name {
+    font-family: "Oswald", sans-serif;
+    color: #6c757d;
+    
+}
+.skill-list {
+    padding: 4px;
+
+}
+
+.skill-name .skill-list {
+    padding-left: 30px;
+}
+
+.vl-title {
+    font-family: "Oswald", sans-serif;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.vl-description li {
+    padding-left: 30px;
+}
