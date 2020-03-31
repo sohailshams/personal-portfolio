@@ -17,9 +17,9 @@
 
 .navbar-text {
     font-family: "Lora", sans-serif;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
-    color: #fafafa;
+    
     padding:5px;
 }
 
@@ -52,7 +52,7 @@
 /*-----------------------------------------------------Colors*/
 
 .menuitem {  
-    background-color: #6c757d;
+    background-color: #343a40;
     
  }
 
@@ -126,8 +126,10 @@
     font-weight: 600;
 }
 
+
+
 footer {
-    background-color: #6c757d;
+    background-color: #111414;  
     color: #fafafa;
     min-height: 90px;
     margin: 0;
