@@ -145,7 +145,7 @@
 /*-----------------------------------------------------Picture*/
 
 .picture {
-  padding: 0;
+  
   background-position: center;
   background-size: cover;  
   clear: both;
@@ -205,6 +205,13 @@ footer {
     background-color: #e84610;
 }
 
+.contact-heading {
+    color: #e84610;
+}
+
+.btn .send-color {
+    color: #e84610;
+}
 /*-----------------------------------------------------Portfolio styling*/
 
 
@@ -246,4 +253,19 @@ footer {
 
 .vl-description li {
     padding-left: 30px;
+}
+/*-----------------------------------------------------contact form*/
+
+.contact-heading {
+    font-family: "Oswald", sans-serif;
+    margin-top: 20px; 
+    margin-bottom: 15px;
+}
+
+.contact-form {
+    max-width: 80%;
+}
+
+.btn {
+    margin-top: 10px;
 }

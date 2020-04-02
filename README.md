@@ -1,35 +1,36 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# User Centric Frontend Development Milestone Project
 
-Welcome sohailshams,
+## Personal Portfolio Website
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## Project Description
 
-## Gitpod Reminders
+This project is created as an assignment of diploma in full stack software development. It is a responsive website and contains the personal information, education, work history, skills, CV and contact me form. I have also included some rendom websites as my project portfolio. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Project Goal
 
-`python3 -m http.server`
+The goal of personal portfolio website is to create online presence with good user experience. A good showcasing of portfolio will help to connect with the employers and recruiters. Whereas, the employers and recruiters are the target audience of the website.
 
-A blue button should appear to click: *Make Public*,
+## Technologies Used
+- HTML5
+- CSS3
+- Bootstrap Framework
+- FontAwesome
+- Google Fonts
 
-Another blue button should appear to click: *Open Browser*.
+## Wireframes
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+1. ! [Home Page] (assets/images/wireframe-home.jpg)
+2. ! [Profile Page] (assets/images/wireframe-profile.jpg)
+3. ! [Contact Page] (assets/images/wireframe-contact.jpg)
 
-A blue button should appear to click: *Make Public*,
+## Feature
+Key features of the website are;
 
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+- About me and Personal Info
+- Educational Background
+- Work History 
+- Project Portfolio (Note: These are randome website, I have never worked on these projects)
+- Skills
+- Contact Form (This form will allow employers and recruiters to get in touch with me)
+- Download (This feature will allow employers and recruiters to download cv in pdf format)
+- Social Media Links 

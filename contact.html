@@ -18,7 +18,7 @@
 <body>
 	<header>
 		<div class="menucontainer">
-			<nav class="navbar navbar-expand-md navbar-light bg-secondary">
+			<nav class="navbar navbar-expand-md navbar-light bg-dark">
 				<a href="#" class="navbar-brand"><span class="navbar-text">M.Sohail Shams</span></a>
 				<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-target">
                <span class="navbar-toggler-icon"></span>
@@ -26,20 +26,20 @@
 				<div class="collapse navbar-collapse" id="collapse-target">
 					<ul class="navbar-nav list-inline ml-auto">
 						<li class="list-inline-item menuitem ml-auto container">
-							<a href="#"
+							<a href="index.html"
 								class="hvr-underline-reveal"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
 						</li>
 						<li class="list-inline-item menuitem ml-auto container">
-							<a href="#"
+							<a href="profile.html"
 								class="hvr-underline-reveal"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Profile</span></a>
 						</li>
 						<li class="list-inline-item menuitem ml-auto container">
-							<a href="#"
+							<a href="contact.html"
 								class="hvr-underline-reveal"><i class="fa fa-comment-o"></i><span>Contact</span></a>
 						</li>
 						<li class="list-inline-item menuitem ml-auto container">
-							<a href="#"
-								class="hvr-underline-reveal"><i class="fa fa-download" aria-hidden="true"></i><span >Download</span></a>
+							<a href="assets/cv/CV.pdf"
+								class="hvr-underline-reveal" target="_blank"><i class="fa fa-download" aria-hidden="true"></i><span >Download</span></a>
 						</li>
 					</ul>
 				</div>
@@ -48,7 +48,60 @@
 
 		</div>
 	</header>
-	<section>
+	<section class="container-fluid bg-light">
+
+
+		<div class="row">
+			<div class="col-sm-6 col-md-6 col-lg-4">
+
+				<a><img class="img-fluid" src="assets/images/sohail2.jpg" alt="img"></a>
+
+			</div>
+
+
+			<div class="col-sm-6 col-md-6 col-lg-4">
+				<h4 class="heading-title">Laguage Skills</h4>
+				<ul class="job-description">
+					<li>English</li>
+					<li>Urdu</li>
+					<li>Danish</li>
+
+				</ul>
+
+				<h4 class="heading-title">Extra Curicular Activities</h4>
+				<ul class="job-description">
+					<li>Playing Cricket</li>
+					<li>Travelling</li>
+					<li>Going out with friends</li>
+
+				</ul>
+
+			</div>
+			<div class="col-sm-6 col-md-6 col-lg-4">
+				<h4 class="contact-heading">Let's bring ideas into reality</h4>
+				<div class="contact-form">
+                <form>
+					<input type="text" name="name" id="name" placeholder="Name" class="form-control" required>
+					<input type="email" name="email" id="emailaddress" placeholder="Email" class="form-control" required>
+					<textarea rows="5" name="ideasummary" id="ideasummary" placeholder="Idea Description" class="form-control" required></textarea>
+					<div class="form-row text-center">
+						<div class="col">
+							<button type="submit" class="btn btn-dark"><span class="send-color hvr-pulse">Contact Me</span></button>
+						</div>
+					</div>
+                    
+
+				</form>
+                </div>
+
+
+
+
+
+			</div>
+		</div>
+
+
 
 
 	</section>
@@ -62,7 +115,7 @@
 			<div class="col-12 col-sm-4">
 				<h6 class="uppercase footer-items">Download</h6>
 				<p class="inline-block">Download printable CV here
-					<a href="#" class="cv-pdf hvr-pulse"
+					<a href="assets/cv/CV.pdf" class="cv-pdf hvr-pulse"
 						target="_blank"><i class="fa fa-download" aria-hidden="true"></i>
 						<span class="sr-only">Download CV Link</span></a>
 				</p>
