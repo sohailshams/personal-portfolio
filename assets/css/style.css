@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:100,200,300,400,500,600,700|Oswald:100,200,300,400,500,600,700');
 
+.container-fluid {
+   
+}
+
 
 /*-----------------------------------------------------Job title and Education*/
 .job-title {
@@ -11,64 +15,73 @@
 
 /*-----------------------------------------------------Navbar*/
 
-.navbar {
-    min-height: 150px;
-}
 
-.navbar-text {
-    font-family: "Lora", sans-serif;
-    font-size: 35px;
-    font-weight: bold;
-    
-    padding:5px;
+.nav-link > li {
+    margin-right: 5px;
+    margin-left: 5px;       
 }
 
 
 
-.navbar-nav > li {
-    margin-right: 40px;
-    margin-left: 40px;
-       
-}
-
-.menuitem a {
-    font-family: "Lato", sans-serif;
-    font-size: 15px;
-    color: #e84610;
-    text-decoration: none;
-     text-align: center;
+.nav-link {
     padding: 0;
-    text-transform: uppercase;
-    font-weight: bold;
-    
 }
 
-.menuitem a i {
-    padding-top: 30 px;
+.nav-link a i {
     display: block;
-    
-}
-
-/*-----------------------------------------------------Colors*/
-
-.menuitem {  
-    background-color: #343a40;
-    
- }
-
- .navbar-light .navbar-text {
+    padding-top: 20px;
     color: #e84610;
+    text-align: center;
 }
 
-
-.navbar-toggler {
-    background-color: #fafafa;
+.nav-link a {
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    color: #e84610;
+    
+    text-align: center;
+    
+    font-size: 18px;
+    padding: 0; 
+    
 }
+
+.nav-link i {
+    font-size: 150%;
+}
+
+.nav-link-item {
+    padding-right: 0;
+}
+/*-----------------------------------------------------Colors and styling */
+
+
+
+.name {
+     font-family: "Lato", sans-serif;
+    color: #e84610;
+    padding-left: 10px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.main-job-title {
+    font-family: "Lato", sans-serif;
+    color: #e84610;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+
+}
+
 
 .title {
     font-family: "Oswald", sans-serif;
     color: #e84610;
     padding-top: 10px;
+    padding-left: 10px;
+    
     
 
     
@@ -77,7 +90,7 @@
 .heading-title {
     font-family: "Oswald", sans-serif;
     color: #e84610;
-     padding-left: 10px;
+     padding-left: 20px;
      margin-top: 20px;
     
 }
@@ -85,8 +98,11 @@
 .text-title {
     font-family: "Oswald", sans-serif;
     color: #6c757d;
-    padding-left: 10px;
+    padding-left: 20px;
     
+}
+.list-inline .education-list {
+    padding-left: 20px;
 }
 
 .education-list {
@@ -126,78 +142,17 @@
     color: #6c757d;
 }
 
-.personal-heading-title {
-    font-family: "Oswald", sans-serif;
-    color: #e84610;
-    padding-left: 8px;
-}
 
 .info-list {
     font-family: "Oswald", sans-serif;
     color: #6c757d;
     
-}
-
-.info-table .info-list {
-    padding-left: 8px;
-}
-
-/*-----------------------------------------------------Picture*/
-
-.picture {
-  
-  background-position: center;
-  background-size: cover;  
-  clear: both;
-  display: no-repeat;
-  background-color: #fafafa;
         
 }
 
-
-
-/*-----------------------------------------------------Footer*/
-
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-#footer-row {
-    
-    padding: 5px;
-}
-
-.footer-items {
-    font-family: "Lato", sans-serif;
-    color: #e84610;
-    font-weight: 600;
-}
-
-
-
-footer {
-    background-color: #343a40;  
-    color: #fafafa;
-    min-height: 90px;
-    margin: 0;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-.cv-pdf i {
-    color: #fafafa;
-
-    font-size: 20px;
-  
-}
-
-.social-media-links li a i {
-    color: #fafafa;
-    text-align: center;
-    font-size: 20px;
+.info-section {
+    padding-left: 20px;
+    margin-bottom: 15px;
 }
 
 
@@ -212,6 +167,70 @@ footer {
 .btn .send-color {
     color: #e84610;
 }
+
+
+.footer-items {
+    color: #e84610;
+}
+
+.social-media-links li a i {
+    color: #e84610;
+}
+
+/*-----------------------------------------------------Picture*/
+
+
+
+
+.picture {
+  
+  background-position: center;
+  background-size: cover;  
+  clear: both;
+  display: no-repeat;
+  width: 100%;
+  
+  padding: 0;
+  margin: 0;
+        
+}
+
+
+
+/*-----------------------------------------------------Footer*/
+
+
+
+footer {
+    background-color: #343a40;  
+    min-height: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-items {
+    font-family: "Lato", sans-serif;
+    max-height: 150px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+
+.social-media-links i {
+    font-size: 150%;
+    
+  
+}
+
+.footer-links ul {
+    padding-left: 0;
+    text-align: center;
+    
+}
+
+
+
 /*-----------------------------------------------------Portfolio styling*/
 
 
