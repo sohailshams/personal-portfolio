@@ -18,7 +18,7 @@
 
 .nav-link > li {
     margin-right: 5px;
-    margin-left: 10px;       
+    margin-left: 6px;       
 }
 
 
@@ -128,20 +128,6 @@
        padding-left: 10px;
 }
 
-.skill-title {
-    font-family: "Oswald", sans-serif;
-    color: #e84610;
-    padding-left: 30px;
-    padding-top: 10px;
-}
-
-.vl-description {
-    font-family: "Oswald", sans-serif;
-    
-    color: #6c757d;
-}
-
-
 .info-list {
     font-family: "Oswald", sans-serif;
     color: #6c757d;
@@ -232,14 +218,6 @@ footer {
 /*-----------------------------------------------------Portfolio styling*/
 
 
-.portfolio{
-    padding-top: 60px;
-    padding-left: 30px;
-    font-family: "Oswald", sans-serif;
-    color: #e84610;
-    
-}
-
 .portfolio-list-item a {
       text-decoration: none;
       color: #6c757d;
@@ -248,29 +226,27 @@ footer {
     
 }
 
+.project-list{
+     color: #6c757d;
+      font-family: "Oswald", sans-serif;    
+      padding-left: 30px;
+      
+}
 .skill-name {
     font-family: "Oswald", sans-serif;
     color: #6c757d;
     
-}
+} 
+
 .skill-list {
     padding: 4px;
-
 }
 
 .skill-name .skill-list {
     padding-left: 30px;
 }
 
-.vl-title {
-    font-family: "Oswald", sans-serif;
-    padding-left: 30px;
-    padding-top: 10px;
-}
 
-.vl-description li {
-    padding-left: 30px;
-}
 /*-----------------------------------------------------contact form*/
 
 .contact-heading {
