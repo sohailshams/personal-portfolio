@@ -21,8 +21,6 @@
     margin-left: 6px;       
 }
 
-
-
 .nav-link {
     padding: 0;
 }
@@ -253,12 +251,15 @@ footer {
     font-family: "Oswald", sans-serif;
     margin-top: 20px; 
     margin-bottom: 15px;
+    padding-left: 20px;
 }
 
 .contact-form {
     max-width: 80%;
+    padding-left: 40px;
 }
 
 .btn {
     margin-top: 10px;
+    margin-bottom: 10px;
 }

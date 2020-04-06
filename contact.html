@@ -17,37 +17,116 @@
 
 <body>
 	<header>
-		<div class="menucontainer">
-			<nav class="navbar navbar-expand-md navbar-light bg-dark">
-				<a href="#" class="navbar-brand"><span class="navbar-text">M.Sohail Shams</span></a>
-				<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-target">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-				<div class="collapse navbar-collapse" id="collapse-target">
-					<ul class="navbar-nav list-inline ml-auto">
-						<li class="list-inline-item menuitem ml-auto container">
-							<a href="#"
-								class="hvr-underline-reveal"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-						</li>
-						<li class="list-inline-item menuitem ml-auto container">
-							<a href="#"
-								class="hvr-underline-reveal"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Profile</span></a>
-						</li>
-						<li class="list-inline-item menuitem ml-auto container">
-							<a href="#"
-								class="hvr-underline-reveal"><i class="fa fa-comment-o"></i><span>Contact</span></a>
-						</li>
-						<li class="list-inline-item menuitem ml-auto container">
-							<a href="assets/cv/CV.pdf"
-								class="hvr-underline-reveal" target="_blank"><i class="fa fa-download" aria-hidden="true"></i><span >Download</span></a>
-						</li>
-					</ul>
+
+		<div class="row no-gutters">
+			<div class="col-md-4 bg-dark">
+				<h2 class="name">M.Sohail Shams</h2>
+				<h4 class="main-job-title">Full Stack Software Developer</h4>
+			</div>
+            
+			<div class="col-md-8 bg-dark">
+				<div class="row no-gutters">
+					<div class="col menu">
+
+						<ul id="nav-bar" class="list-inline nav-link">
+							<li class="list-inline-item col-2 col-md-2 nav-link-item">
+								<a href="#" class="hvr-underline-reveal"><i class="fa fa-home" aria-hidden="true"></i>
+									<span>Home</span></a>
+							</li>
+							<li class="list-inline-item col-2 col-md-2 nav-link-item">
+								<a href="#"
+									class="hvr-underline-reveal"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+									<span>Profile</span></a>
+							</li>
+							<li class="list-inline-item col-2 col-md-2 nav-link-item">
+								<a href="#" class="hvr-underline-reveal"><i class="fa fa-comment"></i>
+									<span>Contact</span></a>
+							</li>
+							<li class="list-inline-item col-2 col-md-2 nav-link-item">
+								<a href="assets/cv/CV.pdf" class="hvr-underline-reveal"
+									target="_blank"><i class="fa fa-download" aria-hidden="true"></i>
+									<span >Download</span></a>
+							</li>
+						</ul>
+					</div>
 				</div>
 
-			</nav>
-
+			</div>
 		</div>
+
 	</header>
+
+    <section class="container-fluid bg-light main">
+
+		<div class="row no-gutters">
+			<div class="col-12 col-md-4 col-lg-4">
+				<img class="img-fluid picture" src="assets/images/sohail2.jpg" alt="Responsive image">
+            </div>
+
+
+
+				<div class="col-12 col-md-8 col-lg-8">
+					<div class="row no-gutters">
+						<div class="col-12 col-md-12 col-lg-6">
+							<h4 class="heading-title">Laguage Skills</h4>
+				<ul class="job-description">
+					<li>English</li>
+					<li>Urdu</li>
+					<li>Danish</li>
+
+				</ul>
+
+				<h4 class="heading-title">Extra Curicular Activities</h4>
+				<ul class="job-description">
+					<li>Playing Cricket</li>
+					<li>Travelling</li>
+					<li>Going out with friends</li>
+
+				</ul>
+                		<h4 class="heading-title">Research & Academic Work</h4>
+				<ul class="job-description">
+                    <li>Research Project market-orientation and ts effect on performance</li>
+					<li>Master’s thesis in Brand Building process with Norden Machinery AB Sweden</li>
+					<li>Developed international marketing strategy for Norden Machinery for Indian Market </li>
+					
+				</ul>
+						</div>
+
+
+						<div class="col-12 col-md-12 col-lg-6">
+
+
+							<h4 class="contact-heading">Let's bring ideas into reality</h4>
+				<div class="contact-form">
+                <form>
+					<input type="text" name="name" id="name" placeholder="Name" class="form-control" required>
+					<input type="email" name="email" id="emailaddress" placeholder="Email" class="form-control" required>
+					<textarea rows="5" name="ideasummary" id="ideasummary" placeholder="Idea Description" class="form-control" required></textarea>
+					<div class="form-row text-center">
+						<div class="col">
+							<button type="submit" class="btn btn-dark"><span class="send-color hvr-pulse">Contact Me</span></button>
+						</div>
+					</div>
+                    
+
+				</form>
+               
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+
+	</section>
+
+
+
+
+
+    <!--
 	<section class="container-fluid bg-light">
 
 
@@ -104,46 +183,39 @@
 
 
 
-	</section>
+	</section> -->
 	<footer class="container-fluid">
-		<div id="footer-row" class="row">
-			<div class="col-12 col-sm-4">
-				<h6 class="uppercase footer-items">About</h6>
-				<p class="inline-block">Full Stack Webdeveloper, have extensive knowledge of web technologies like HTML,
-					CSS, JavaScript and Bootsrap</p>
+		<div class="row">
+			<div class="col-md-4">
+				<p class="footer-items">Created with love and passion. Copyright
+					<i class="fa fa-copyright" aria-hidden="true"></i> 2020 MSS</p>
 			</div>
-			<div class="col-12 col-sm-4">
-				<h6 class="uppercase footer-items">Download</h6>
-				<p class="inline-block">Download printable CV here
-					<a href="assets/cv/CV.pdf" class="cv-pdf hvr-pulse"
-						target="_blank"><i class="fa fa-download" aria-hidden="true"></i>
-						<span class="sr-only">Download CV Link</span></a>
-				</p>
-			</div>
-			<div class="col-12 col-sm-4">
-				<h6 class="uppercase footer-items">Social</h6>
-				<ul class="list-inline social-media-links">
-					<li class="list-inline-item">
-						<a href="#" class="cv-pdf hvr-pulse"
-							target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>
-							<span class="sr-only">Facebook</span></a>
-					</li>
-					<li class="list-inline-item">
-						<a href="#" class="cv-pdf hvr-pulse"
-							target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
-							<span class="sr-only">Linkedin</span></a>
-					</li>
-					<li class="list-inline-item">
-						<a href="#" class="cv-pdf hvr-pulse"
-							target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i>
-							<span class="sr-only">Youtube</span></a>
-					</li>
-				</ul>
+
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col footer-links">
+
+						<ul class=" list-inline social-media-links">
+							<li class="col-2 col-md-3 footer-items list-inline-item">
+								<a href="#" class="hvr-pulse"
+									target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>
+									<span class="sr-only">Facebook</span></a>
+							</li>
+							<li class="col-2 col-md-3 footer-items list-inline-item">
+								<a href="#" class="hvr-pulse"
+									target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
+									<span class="sr-only">Linkedin</span></a>
+							</li>
+							<li class="col-2 col-md-3 footer-items list-inline-item">
+								<a href="#" class="hvr-pulse"
+									target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i>
+									<span class="sr-only">Youtube</span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
-
-
-
 
 
 	</footer>
