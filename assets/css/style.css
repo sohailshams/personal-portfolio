@@ -18,7 +18,7 @@
 
 .nav-link > li {
     margin-right: 5px;
-    margin-left: 5px;       
+    margin-left: 10px;       
 }
 
 
@@ -53,6 +53,8 @@
 .nav-link-item {
     padding-right: 0;
 }
+
+
 /*-----------------------------------------------------Colors and styling */
 
 
@@ -62,7 +64,7 @@
     color: #e84610;
     padding-left: 10px;
     padding-top: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 .main-job-title {
@@ -70,7 +72,7 @@
     color: #e84610;
     padding-left: 10px;
     padding-bottom: 20px;
-    text-align: center;
+    text-align: left;
     
 
 }
@@ -81,10 +83,7 @@
     color: #e84610;
     padding-top: 10px;
     padding-left: 10px;
-    
-    
-
-    
+     
 }
 
 .heading-title {
@@ -146,8 +145,7 @@
 .info-list {
     font-family: "Oswald", sans-serif;
     color: #6c757d;
-    
-        
+           
 }
 
 .info-section {
@@ -212,7 +210,7 @@ footer {
     font-family: "Lato", sans-serif;
     max-height: 150px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 
 }
 
