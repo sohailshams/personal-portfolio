@@ -25,10 +25,24 @@ CV can be downloaded by clicking at the download button on the top right.
 
 ## Technical Description
 
-This website consists on 3 pages. Rule of Thirds has been applied, in header, section and footer 1/3 of the page goes to name and job title,
+This website consists on 3 pages, Home, Profile and Contact. Home, Profile and contact buttons will be used to navigate between the pages.
+Home button will bring back to the landing page. CV in pdf format can be downloaded by clicking on download button.
+Rule of Thirds has been applied, in header, section and footer 1/3 of the page goes to name and job title,
 picture and copy right content respectively. Where as navigation bar, about me professional history, social links and contact form took 2/3 of the page. 
 The same structure and layout has been used through out the project. Header and the footer are identical in all pages and have the same content. 
 The section area has the same structure but the only difference is the content which is different in all pages.
+**Attribute**
+1. The target_blank attribute value is given to download button, portfolio websites and social links so that they will open 
+in new tab or window. 
+2. The required attribute is used in name, email and idea description fields to make sure that necessary information is submitted using contact me form.
+**Hover Effect**
+1. Hover effect hvr-underline-reveal has been used in the navigation buttons.
+2. Hover effect hvr-pulse has been used in social links and contact me button.
+**Heading Tags & Classes**
+The name and main job title has given tags <h2> and <h4> respectively. Where as all main headings inside section area have 
+given tag <h4> and a common ofclass heading-title. Only form heading has a different class which is contact-heading. All my work history 
+titles have tag <h6> and a common class job-title.
+This has made it easier to style them. 
 
 
 ## Wireframes
@@ -68,7 +82,9 @@ The code has been validated by using;
 
 **Document checking completed. No errors or warnings to show.**
 
-I have used bootstrap framework to make website responsive. The website has been tested on different web browsers like Microsoft Edge, Google Chroome, Opera and Safari and found responsive. The website was also tested on mobiles phones screen sizes and found responsive.
+I have used bootstrap framework to make website responsive. The website has been tested on different web browsers 
+like Microsoft Edge, Google Chroome and Opera found responsive. 
+The website was also tested on different mobiles phones screen sizes and found responsive.
 
 
 # Acknoledgements
