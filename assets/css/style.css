@@ -163,16 +163,10 @@
 
 .picture {
   
-  background-position: center;
-  background-size: cover;  
-  clear: both;
    width: 100%;
   padding: 0;
-  margin: 0;
-        
+  margin: 0;    
 }
-
-
 
 /*-----------------------------------------------------Footer*/
 
@@ -188,7 +182,7 @@ footer {
     font-family: "Lato", sans-serif;
     max-height: 150px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 
 }
 
@@ -261,4 +255,75 @@ footer {
 .btn {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+/*-----------------------------------------------------Media Queries for big screens (4k) */
+
+@media (min-width: 2550px) {
+    .name { font-size: 65px;
+    padding-left: 60px;}
+
+    .main-job-title { font-size: 45px;
+    padding-left:60px; }
+
+    .nav-link i {
+    font-size: 200%;}
+
+    .nav-link > li {
+    margin-right: 40px;
+    margin-left: 60px;}
+
+    .nav-link a { font-size: 35px;}
+
+    .nav-link a i { padding-top: 25px;}
+
+    .heading-title {padding-top: 30px;
+    padding-left: 50px;
+    font-size: 45px;}
+
+    .text-title { padding-left: 50px;
+    font-size: 30px;}
+
+    .list-inline .education-list { padding-left: 50px;
+    font-size: 30px;}
+
+    .info-section { padding-left: 50px;}
+
+    .info-list { font-size: 30px;}
+
+    .skill-name .skill-list { padding-left: 50px;}
+
+    .skill-list { padding: 10px;
+    font-size: 30px;}
+
+    .portfolio-list-item a{ padding-left: 50px;
+    font-size: 30px;}
+
+    .project-list { padding-left: 50px;
+    font-size: 30px;}
+
+    .job-title {padding-left: 35px;
+    font-size: 30px;}
+
+   .job-description { padding-left: 80px;
+   font-size: 30px;}
+
+   .contact-heading {padding-top: 30px;
+    padding-left: 50px;
+    font-size: 45px;}
+
+    .contact-form {max-width: 90%;
+    padding-left: 40px;}
+
+.form-control { margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;}
+
+.btn {margin-top: 5px;
+   font-size: 30px;
+   height: 90px;
+   width: 230px;}
+
+.footer-items { font-size: 180%;}
+
+   
 }
