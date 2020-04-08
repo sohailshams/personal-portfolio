@@ -111,6 +111,7 @@ The picture used in portfolio website is my own picture.
 4. Bootstrap grid system helped me alot to understand how actually it works and utilized it in my project.
 5. The headings Color #e84610 has been taken from Code Institute.  
 6. Code Institute tutor support has been a good help.
+7. A special thanks to my lovely wife my sons Ibrahim and Ismail for their support and motivation.
 
 ## Deployment
 
