@@ -15,11 +15,14 @@ This portfolio website is designed and developed for me and the reason is to mar
 The users of this website are the potential employers, recruiters. This website will provide them all the information that are looking
 for in their business partner/employee. To provide good user experience, the website design has been kept simple.
 This website consists on 3 pages, Home, Profile and Contact. Home, Profile and contact buttons will be used to navigate between the pages.
-Home button will bring back to the landing page. CV in pdf format can be downloaded by clicking on download button.
+It is very easy for the user to navigate between the pages. Home button will bring the user back to the landing page. 
+If user want to download CV in pdf format it can be downloaded by clicking on download button which user will find on top right of the page.
+The landing page will provide user personal info and educational background. Profil page provide user work history and if user 
+wants to contact then user can go to the contact page and fill out contact me form.
 Rule of Thirds has been applied, in header, section and footer 1/3 of the page goes to name and job title,
 picture and copy right content respectively. Where as navigation bar, about me, professional history, social links and contact form took 2/3 of the page. 
 The same structure and layout has been used through out the project. Header and the footer are identical in all pages and have the same content. 
-The section area has the same structure but the only difference is the content which is different in all pages.
+The section area has the same structure but the only difference is the content which is different in all pages. 
 ##### Attribute
 1. The target_blank attribute value is given to download button, portfolio websites and social links so that they will open 
 in new tab or window. 
@@ -84,10 +87,9 @@ I have used bootstrap framework to make website responsive.
 On screen size L-1440px and L-1024px page shows three columns and on tablet-768px the right column will come underneath the
 middle column. On small screen sizes 425px or less the navigation buttons will come underneath the job title and middle colomn
 will come underneath the picture and social links will come underneath copyright content giving a nice effect to the visitors.
-However on big screen sizes like 4k-2560px content looked very small leaving big empty spaces on the page.
-##### Media Query for 4k-2560 px Big Screen
-To overcome this problem, I wrote separate media query. I tested then on my home 4K-Ultra HD TV and looks nice.
-Required attribute is added in all fields of the form like name, email and idea description. If any field left empty it will 
+However when I tested on big screen sizes like 4k-2560px content looked very small leaving big empty spaces on the page.
+To overcome this problem, I wrote separate media query. I tested then on my home 4K-Ultra HD 55'TV and it looks nice.
+Required attribute is added in all fields of the contact me form like name, email and idea description. If any field left empty it will 
 be notified. Further if wrong email is entered, it will also be notified.
 ##### Heading Tags & Classes
 The name and main job title has given tags h2 and h4 respectively. Where as all main headings inside section area have 
@@ -96,7 +98,8 @@ titles have tag h6 and a common class job-title. This has made it easier to styl
 
 ## Credits
 ### Content
-Text in the website  belongs to me.
+Text in the website and attached cv belongs to me except the portfolio website as I never worked on them. Besides this the commpany
+iTax is fake company name.
 ### Media
 The picture used in portfolio website is my own picture.
 
@@ -107,16 +110,16 @@ The picture used in portfolio website is my own picture.
 3. Code Institute tutorials **specially Love Running and Mini Project with Bootstrap 4** were very informative and helpfull in writing the code.
 4. Bootstrap grid system helped me alot to understand how actually it works and utilized it in my project.
 5. The headings Color #e84610 has been taken from Code Institute.  
-6. Code Institute tutor support has been a good support.
+6. Code Institute tutor support has been a good help.
 
 ## Deployment
 
 These are the steps that, I followed to deploy my portfolio project on GitHub pages;
 1. Go to GitHub and click on repository [sohailshams/first-milestone-project](https://github.com/sohailshams/first-milestone-project)
-2. Click on Settings on the top right of the page
-3. Scroll down to the GitHub pages section
-4. Click on dropdown menu under Source section and select Master Branch as Source
-5. Click on Save
+2. Click on **Settings** on the top right of the page
+3. Scroll down to the **GitHub pages section**
+4. Click on **dropdown menu** under **Source** section and select **Master Branch as Source**
+5. Click on **Save**
 
 
 
