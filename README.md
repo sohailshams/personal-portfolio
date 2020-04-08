@@ -120,7 +120,7 @@ These are the steps that, I followed to deploy my portfolio project on GitHub pa
 2. Click on **Settings** on the top right of the page
 3. Scroll down to the **GitHub pages section**
 4. Click on **dropdown menu** under **Source** section and select **Master Branch as Source**
-5. Click on **Save**
+5. **Save**
 
 
 
