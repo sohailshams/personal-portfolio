@@ -12,12 +12,12 @@ portfolio website are the employers, recruiters and private people who need serv
 ## UX
 
 This portfolio website is designed and developed for me and the reason is to market himself online with good user experience.
-The users of this are the potential employers, recruiters. This website will provide them all the information that are looking
+The users of this website are the potential employers, recruiters. This website will provide them all the information that are looking
 for in their business partner/employee. To provide good user experience, the website design has been kept simple.
 This website consists on 3 pages, Home, Profile and Contact. Home, Profile and contact buttons will be used to navigate between the pages.
 Home button will bring back to the landing page. CV in pdf format can be downloaded by clicking on download button.
 Rule of Thirds has been applied, in header, section and footer 1/3 of the page goes to name and job title,
-picture and copy right content respectively. Where as navigation bar, about me professional history, social links and contact form took 2/3 of the page. 
+picture and copy right content respectively. Where as navigation bar, about me, professional history, social links and contact form took 2/3 of the page. 
 The same structure and layout has been used through out the project. Header and the footer are identical in all pages and have the same content. 
 The section area has the same structure but the only difference is the content which is different in all pages.
 ##### Attribute
@@ -32,13 +32,13 @@ in new tab or window.
 ## Wireframes
 
 - [Link to Wireframes](https://balsamiq.cloud/spqeqx6/p6eu6hq/r5A60) 
-- ![Wireframes in PDF](assets/wireframes/wireframe.pdf)
+- [Wireframes in PDF](assets/wireframes/wireframe.pdf)
 
 
 ## Feature
 
 Key features of the website are;
-- Picture (It takes 1/3 of the page and will appear on all pages picture)
+- Picture (It takes 1/3 of the page and will appear on all pages)
 - About me and Personal Info (A breife introduction to the employers and recruiters)
 - Educational Background (Gives insight of educational background)
 - Skills (The skills that I have gained during my professional career)
@@ -58,13 +58,13 @@ Key features of the website are;
 - HTML5
 - CSS3
 - [Bootstrap Framework](https://getbootstrap.com/) 
- - This project is based on Bootstrap.
-- [FontAwesome] (https://fontawesome.com/v4.7.0/icons/) 
- - Used fontawesome icons this project.
-- [Googlefonts] (https://fonts.google.com/) 
- - Google fonts Lato & Oswald are used in this project.
-- [Hover.css] (https://ianlunn.github.io/Hover/)
- - Hover effects are also used in this project.
+  This project is based on Bootstrap.
+- [FontAwesome](https://fontawesome.com/v4.7.0/icons/) 
+  Used fontawesome icons this project.
+- [Googlefonts](https://fonts.google.com/) 
+  Google fonts Lato & Oswald are used in this project.
+- [Hover.css](https://ianlunn.github.io/Hover/)
+  Hover effects are also used in this project.
  
 
 ## Testing
@@ -108,6 +108,16 @@ The picture used in portfolio website is my own picture.
 4. Bootstrap grid system helped me alot to understand how actually it works and utilized it in my project.
 5. The headings Color #e84610 has been taken from Code Institute.  
 6. Code Institute tutor support has been a good support.
+
+## Deployment
+
+These are the steps that, I followed to deploy my portfolio project on GitHub pages;
+1. Go to GitHub and click on repository [sohailshams/first-milestone-project](https://github.com/sohailshams/first-milestone-project)
+2. Click on Settings on the top right of the page
+3. Scroll down to the GitHub pages section
+4. Click on dropdown menu under Source section and select Master Branch as Source
+5. Click on Save
+
 
 
 
