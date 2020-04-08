@@ -17,6 +17,7 @@
 
 <body>
 	<header>
+		<!--Used bootstrap grid & rule of thirds from bootstrap mini project 4-->
 
 		<div class="row no-gutters">
 			<div class="col-md-4 bg-dark">
@@ -26,7 +27,7 @@
 
 			<div class="col-md-8 bg-dark">
 				<div class="row no-gutters">
-					<div class="col menu">
+					<div class="col">
 
 						<ul id="nav-bar" class="list-inline nav-link">
 							<li class="list-inline-item col-2 col-md-2 nav-link-item">
@@ -99,9 +100,12 @@
 							<h4 class="contact-heading">Let's bring ideas into reality</h4>
 							<div class="contact-form">
 								<form>
+                                <label for="name" class="form-title">Name</label>
 									<input type="text" name="name" id="name" placeholder="Name" class="form-control" required>
-									<input type="email" name="email" id="emailaddress" placeholder="Email" class="form-control" required>
-									<textarea rows="5" name="ideasummary" id="ideasummary" placeholder="Idea Description" class="form-control" required></textarea>
+                                    <label for="name" class="form-title">Email Address</label>
+									<input type="email" name="email" id="emailaddress" placeholder="mail@abc.com" class="form-control" required>
+                                    <label for="name" class="form-title">Project</label>
+									<textarea rows="6" name="ideasummary" id="ideasummary" placeholder="Description" class="form-control" required></textarea>
 									<div class="form-row text-center">
 										<div class="col">
 											<button type="submit" class="btn btn-dark"><span class="send-color hvr-pulse">Contact Me</span></button>
@@ -118,7 +122,7 @@
 					</div>
 
 				</div>
-		</div>
+			</div>
 
 	</section>
 
@@ -158,15 +162,6 @@
 
 
 	</footer>
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
 </body>
 
 </html>
