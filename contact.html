@@ -13,6 +13,14 @@
 		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 	<title>Sohail</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+        <script>
+            (function () {
+                emailjs.init("user_DXLBRpkIX6GuFjczJs4yR");
+            })();
+        </script>
+    
 </head>
 
 <body>
@@ -99,13 +107,13 @@
 
 							<h4 class="contact-heading">Let's bring ideas into reality</h4>
 							<div class="contact-form">
-								<form>
+								<form onsubmit="return sendMail(this);" id="form-reset">
                                 <label for="name" class="form-title">Name</label>
 									<input type="text" name="name" id="name" placeholder="Name" class="form-control" required>
                                     <label for="name" class="form-title">Email Address</label>
-									<input type="email" name="email" id="emailaddress" placeholder="mail@abc.com" class="form-control" required>
+									<input type="email" name="emailaddress" id="emailaddress" placeholder="mail@abc.com" class="form-control" required>
                                     <label for="name" class="form-title">Project</label>
-									<textarea rows="6" name="ideasummary" id="ideasummary" placeholder="Description" class="form-control" required></textarea>
+									<textarea rows="6" name="query" id="query" placeholder="Description" class="form-control" required></textarea>
 									<div class="form-row text-center">
 										<div class="col">
 											<button type="submit" class="btn btn-dark"><span class="send-color hvr-pulse">Contact Me</span></button>
@@ -162,6 +170,7 @@
 
 
 	</footer>
+        <script src="assets/js/script.js"></script>
 </body>
 
 </html>
