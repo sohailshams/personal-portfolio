@@ -257,6 +257,12 @@ footer {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+@media (max-width: 320px) {
+    .nav-link-item {
+        padding-left: 0;
+    }
+}
 /*-----------------------------------------------------Media Queries for big screens (4k) */
 
 @media (min-width: 2550px) {
