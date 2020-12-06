@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:100,200,300,400,500,600,700|Oswald:100,200,300,400,500,600,700');
 
 
+.main {
+    margin-top: 90px;
+}
+
 /*-----------------------------------------------------Job title and Education*/
 .job-title {
     padding-top: 10px;
@@ -11,6 +15,12 @@
 
 /*-----------------------------------------------------Navbar*/
 
+.nav-bar {
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 9999999999;
+  width: 100%;
+}
 
 .nav-link > li {
     margin-right: 5px;
@@ -256,6 +266,14 @@ footer {
 .btn {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+/*-----------------------------------------------------Media Queries */
+
+@media (max-width: 425px) {
+    .main {
+        margin-top: 150px;
+    }
 }
 
 @media (max-width: 320px) {
