@@ -280,6 +280,9 @@ footer {
     .nav-link-item {
         padding-left: 0;
     }
+    .skill-name .skill-list {
+        padding-left: 10px;
+    }
 }
 /*-----------------------------------------------------Media Queries for big screens (4k) */
 
